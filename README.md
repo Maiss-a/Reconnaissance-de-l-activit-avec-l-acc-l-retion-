@@ -1,8 +1,12 @@
 # RECONNAISSANCE DE L'ACTIVITE AVEC L'ACCELERATION
 Tout au long du projet on va utiliser les bibiotheques suivant:
+
 Pandas:pour importer les tables exels
+
 Numpy:Pour manipuler le data set (fonct sur les matrices)
+
 sklearn:pour les fonctions du machine Learning 
+
 
 1-praitraitement: dans cette phase on utilise souvent le module preprocessing de sklearn "Sklearn.preprocessing" qui contient des classes appelées "transformateurs" et des fonctions mathématiques
 nous traitons l'ensemble de nos données de façon cohérente,en transformant toute donnée future de la meme manière qu'on été transformé les données qu'on est servit à l'entrainement de la machine( grace aux transformateur et estimateur).
