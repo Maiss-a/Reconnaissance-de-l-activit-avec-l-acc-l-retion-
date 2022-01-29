@@ -21,4 +21,4 @@ questions à poser :
 
 1.quand  les valeurs abérrantes (outliers) peuvent poser des problème durant l'apprentissage? car j'ai pas trouver une réponse exacte pour avoir la decision de les supprimer ou non? 
 
-2.comment équilibrer les données s'il est obligatoir?
+2.est-ce obligatoire d'équilibrer les données dans mon cas ? --voir derniere ligne de code qui visualise les données que j'ai pensé qu'ils son déquilibrées
