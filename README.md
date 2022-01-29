@@ -17,7 +17,7 @@ nous traitons l'ensemble de nos données de façon cohérente,en transformant to
    
    •dataset Split :on séparé le data set en 80% train_set et 20% test_set
    
- NB: j'ai fait le traitement sur un seul fichier du data set (parmi les 14 fich exels) pour vous donner un exemple et manipuler les autres après avoir vos remarques  
+ NB: j'ai fait le traitement sur un seul fichier du data set (parmi les 14 fich exels) pour vous donner un exemple et fusionner tout les fichier et les manipuler après avoir vos remarques  
 
 questions à poser :
 
