@@ -16,9 +16,13 @@ nous traitons l'ensemble de nos données de façon cohérente,en transformant to
    •la normalisation:on choisit la technique de standarisation mentionné dans le résumé en utilisant le transformateurs Standarscaler() 
    
    •dataset Split :on séparé le data set en 80% train_set et 20% test_set
+   
+ NB: j'ai faire le traitement sur un seul fichier du data set (parmi les 14 fich exels) pour vous donner un exemple et manipuler les autres après avoir vos remarques  
 
 questions à poser :
 
 1.quand  les valeurs abérrantes (outliers) peuvent poser des problème durant l'apprentissage? car j'ai pas trouver une réponse exacte pour avoir la decision de les supprimer ou non? 
 
 2.est-ce obligatoire d'équilibrer les données dans mon cas ? --voir derniere ligne de code qui visualise les données que j'ai pensé qu'ils son déquilibrées
+
+à bientot 
