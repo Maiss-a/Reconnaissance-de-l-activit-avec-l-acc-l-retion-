@@ -25,4 +25,4 @@ questions à poser :
 
 2.est-ce obligatoire d'équilibrer les données dans mon cas ? --voir derniere ligne de code qui visualise les données que j'ai pensé qu'ils son déquilibrées
 
-à bientot 
+
