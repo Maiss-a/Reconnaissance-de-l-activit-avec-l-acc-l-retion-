@@ -29,6 +29,8 @@ de données de la moyenne du point de données et diviser le résultat par l’�
 type des données.
    •dataset Split :on séparé le data set en 80% train_set et 20% test_set
    
+   https://github.com/Maiss-a/Reconnaissance-de-l-activit-avec-l-acc-l-retion-/blob/main/CNN.ipynb
+   
 ## 3- Le modèle CNN 
 on ignore l'étape de l'extraction des caractéristique car le CNN la fait seul
 on a changer le dimmensions de notre données pour utiliser un réseau de convolution avec 2dimension 
