@@ -16,7 +16,7 @@ après l'observation des courbes on a annuler l'activitée (standing walking and
 après le netoyage de données on a les équilibré en prenat pour chaque individu 988 instance car la fréquence est 52 donc elles représente 19 secondes pour chaque activitée et en les mettant dans un seul fichier 
 https://github.com/Maiss-a/Reconnaissance-de-l-activit-avec-l-acc-l-retion-/blob/main/balance%20and%20concat%20data.ipynb
 
-dans cette phase on utilise souvent le module preprocessing de sklearn "Sklearn.preprocessing" qui contient des classes appelées "transformateurs" et des fonctions mathématiques
+dans le prétraitement on utilise souvent le module preprocessing de sklearn "Sklearn.preprocessing" qui contient des classes appelées "transformateurs" et des fonctions mathématiques
 nous traitons l'ensemble de nos données de façon cohérente,en transformant toute donnée future de la meme manière qu'on été transformé les données qu'on est servit à l'entrainement de la machine( grace aux transformateur et estimateur).
 
    •nettoyage et encodage:avant de démarer il fallait netoyer les données et encoder la colonne de classe (qui est qualitatif), mais le data set que j'ai trouvé est encodé et j'ai analysé les valeurs manquantes et rien trouver donc je croix qu'elle est netoyé aussi.
@@ -29,7 +29,6 @@ de données de la moyenne du point de données et diviser le résultat par l’�
 type des données.
    •dataset Split :on séparé le data set en 80% train_set et 20% test_set
    
-   https://github.com/Maiss-a/Reconnaissance-de-l-activit-avec-l-acc-l-retion-/blob/main/CNN.ipynb
    
 ## 3- Le modèle CNN 
 on ignore l'étape de l'extraction des caractéristique car le CNN la fait seul
@@ -38,3 +37,4 @@ après avoir un overfitting dans notre modèle les solution utilisé sont :
 augmenter l'apprentissage avec l'augmentation de nombre d'epochs
 parametre tunning: régler le nombre de neurones , optimizer
 cross validaton: utiliser K-fold cross validation 
+   https://github.com/Maiss-a/Reconnaissance-de-l-activit-avec-l-acc-l-retion-/blob/main/CNN.ipynb
