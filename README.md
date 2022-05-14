@@ -13,6 +13,9 @@ avec 15 individus chaqu'un performe 7 activitées toutes ces activitées dans un
 pour faciliter le travail d'extraction on a met chaque activitée dans un fichier avec 10 feuilles (en suprimmant 5 indiv qui ont des courbes insignificatifs)
 après l'observation des courbes on a annuler l'activitée (standing walking and going up-down stair car elle n'a pas des caractéristique commun dans ces courbes 
 ## 2-praitraitement:
+après le netoyage de données on a les équilibré en prenat pour chaque individu 988 instance car la fréquence est 52 donc elles représente 19 secondes pour chaque activitée et en les mettant dans un seul fichier 
+https://github.com/Maiss-a/Reconnaissance-de-l-activit-avec-l-acc-l-retion-/blob/main/balance%20and%20concat%20data.ipynb
+
 dans cette phase on utilise souvent le module preprocessing de sklearn "Sklearn.preprocessing" qui contient des classes appelées "transformateurs" et des fonctions mathématiques
 nous traitons l'ensemble de nos données de façon cohérente,en transformant toute donnée future de la meme manière qu'on été transformé les données qu'on est servit à l'entrainement de la machine( grace aux transformateur et estimateur).
 
@@ -27,7 +30,7 @@ type des données.
    •dataset Split :on séparé le data set en 80% train_set et 20% test_set
    
 ## 3- Le modèle CNN 
-
+on ignore l'étape de l'extraction des caractéristique car le CNN la fait seul
 on a changer le dimmensions de notre données pour utiliser un réseau de convolution avec 2dimension 
 après avoir un overfitting dans notre modèle les solution utilisé sont :
 augmenter l'apprentissage avec l'augmentation de nombre d'epochs
